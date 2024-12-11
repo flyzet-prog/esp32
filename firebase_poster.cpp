@@ -12,7 +12,7 @@ class FirebasePoster : public Component {
       
       int httpResponseCode = http.POST(payload);
       if (httpResponseCode > 0) {
-        ESP_LOGD("custom", "Data sent successfully: %d", httpResponseCode);
+Aaa        ESP_LOGD("custom", "Data sent successfully: %d", httpResponseCode);
       } else {
         ESP_LOGE("custom", "Error sending data: %d", httpResponseCode);
       }
